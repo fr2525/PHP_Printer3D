@@ -1,0 +1,15 @@
+/* Reduz o espaço externo ao redor do grupo de campo */
+.input-field {
+  margin-top: 0.5rem;    /* Padrão é 1rem */
+  margin-bottom: 0.5rem; /* Padrão é 1rem */
+}
+
+/* Reduz a margem inferior direta do campo de texto */
+.input-field input[type="text"],
+.input-field input[type="password"],
+.input-field input[type="email"],
+.input-field input[type="number"],
+.input-field textarea.materialize-textarea {
+  margin-bottom: 4px;    /* Padrão é 8px ou 20px dependendo da versão */
+  height: 2.2rem;        /* Opcional: deixa a altura do campo mais compacta */
+}

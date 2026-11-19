@@ -1,0 +1,52 @@
+.lnr-eye {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.dashboard-card {
+    background-color: rgb(235, 220, 140);
+    display: flex;
+    width: 25%;
+    margin: 8px;
+    height: 140px;
+    line-height: 140px;
+}
+
+.card-icon {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.card-icon i {
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 20%;
+    border-radius: 50px;
+    color: white;
+}
+
+.dashboard-row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.card-text {
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.card-number {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.dashboard {
+    padding: 0px;
+    margin-top: 35px;
+}
